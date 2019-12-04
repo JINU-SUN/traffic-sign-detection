@@ -27,3 +27,7 @@ Inference를 하기 위해서는 inference_graph를 생성해야하기 때문에
 ```bash
 ./create_graph.sh -c faster_rcnn_resnet101/faster_rcnn_resnet101_gtsdb3.config -m faster_rcnn_resnet101 -t faster_rcnn_resnet101/train/model.ckpt-xxxx
 ```
+
+### Evaluate
+
+위 과정을 모두 수행하였다면, <a href="https://github.com/JINU-SUN/traffic-sign-detection/blob/master/Eval.ipynb" >Eval.ipynb</a>를 참고 실행하여 test_images을 평가할 수 있다.
